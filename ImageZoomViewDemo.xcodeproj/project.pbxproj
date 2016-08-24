@@ -10,11 +10,12 @@
 		23EF5A2E1D6D2652000D8307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF5A2D1D6D2652000D8307 /* main.m */; };
 		23EF5A311D6D2652000D8307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF5A301D6D2652000D8307 /* AppDelegate.m */; };
 		23EF5A341D6D2652000D8307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF5A331D6D2652000D8307 /* ViewController.m */; };
-		23EF5A371D6D2653000D8307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EF5A351D6D2653000D8307 /* Main.storyboard */; };
 		23EF5A391D6D2653000D8307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23EF5A381D6D2653000D8307 /* Assets.xcassets */; };
 		23EF5A3C1D6D2653000D8307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23EF5A3A1D6D2653000D8307 /* LaunchScreen.storyboard */; };
 		23EF5A471D6D2653000D8307 /* ImageZoomViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF5A461D6D2653000D8307 /* ImageZoomViewDemoTests.m */; };
 		23EF5A521D6D2653000D8307 /* ImageZoomViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF5A511D6D2653000D8307 /* ImageZoomViewDemoUITests.m */; };
+		23EF5A621D6D2678000D8307 /* ImageZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 23EF5A611D6D2678000D8307 /* ImageZoomView.m */; };
+		23EF5A641D6D26E9000D8307 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 23EF5A631D6D26E9000D8307 /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		23EF5A301D6D2652000D8307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		23EF5A321D6D2652000D8307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		23EF5A331D6D2652000D8307 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		23EF5A361D6D2653000D8307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23EF5A381D6D2653000D8307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23EF5A3B1D6D2653000D8307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23EF5A3D1D6D2653000D8307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,9 @@
 		23EF5A4D1D6D2653000D8307 /* ImageZoomViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageZoomViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23EF5A511D6D2653000D8307 /* ImageZoomViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageZoomViewDemoUITests.m; sourceTree = "<group>"; };
 		23EF5A531D6D2653000D8307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23EF5A601D6D2678000D8307 /* ImageZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageZoomView.h; sourceTree = "<group>"; };
+		23EF5A611D6D2678000D8307 /* ImageZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageZoomView.m; sourceTree = "<group>"; };
+		23EF5A631D6D26E9000D8307 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		23EF5A201D6D2652000D8307 = {
 			isa = PBXGroup;
 			children = (
+				23EF5A5F1D6D2678000D8307 /* ImageZoomView */,
 				23EF5A2B1D6D2652000D8307 /* ImageZoomViewDemo */,
 				23EF5A451D6D2653000D8307 /* ImageZoomViewDemoTests */,
 				23EF5A501D6D2653000D8307 /* ImageZoomViewDemoUITests */,
@@ -105,7 +109,6 @@
 				23EF5A301D6D2652000D8307 /* AppDelegate.m */,
 				23EF5A321D6D2652000D8307 /* ViewController.h */,
 				23EF5A331D6D2652000D8307 /* ViewController.m */,
-				23EF5A351D6D2653000D8307 /* Main.storyboard */,
 				23EF5A381D6D2653000D8307 /* Assets.xcassets */,
 				23EF5A3A1D6D2653000D8307 /* LaunchScreen.storyboard */,
 				23EF5A3D1D6D2653000D8307 /* Info.plist */,
@@ -117,6 +120,7 @@
 		23EF5A2C1D6D2652000D8307 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				23EF5A631D6D26E9000D8307 /* image.png */,
 				23EF5A2D1D6D2652000D8307 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +142,15 @@
 				23EF5A531D6D2653000D8307 /* Info.plist */,
 			);
 			path = ImageZoomViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		23EF5A5F1D6D2678000D8307 /* ImageZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				23EF5A601D6D2678000D8307 /* ImageZoomView.h */,
+				23EF5A611D6D2678000D8307 /* ImageZoomView.m */,
+			);
+			path = ImageZoomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +258,7 @@
 			files = (
 				23EF5A3C1D6D2653000D8307 /* LaunchScreen.storyboard in Resources */,
 				23EF5A391D6D2653000D8307 /* Assets.xcassets in Resources */,
-				23EF5A371D6D2653000D8307 /* Main.storyboard in Resources */,
+				23EF5A641D6D26E9000D8307 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23EF5A341D6D2652000D8307 /* ViewController.m in Sources */,
+				23EF5A621D6D2678000D8307 /* ImageZoomView.m in Sources */,
 				23EF5A311D6D2652000D8307 /* AppDelegate.m in Sources */,
 				23EF5A2E1D6D2652000D8307 /* main.m in Sources */,
 			);
@@ -308,14 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		23EF5A351D6D2653000D8307 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				23EF5A361D6D2653000D8307 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		23EF5A3A1D6D2653000D8307 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

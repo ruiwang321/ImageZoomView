@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ImageZoomView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    imageView.image = [UIImage imageNamed:@"image.png"];
+    
+    [self.view addSubview:imageView];
+    
+/////////////////////////////////////添加点击方法效果//////////////////////////////////////
+     
+    [ImageZoomView zoomImageWhenTap:imageView];
 }
 
 - (void)didReceiveMemoryWarning {
